@@ -49,8 +49,13 @@ The account number and name of the customer together with the balance is display
 ## System Sequence Diagram 
 >**Task:** A graphical version of a Use Case is called a System Sequence Diagram (SSD) Create one for each Use Case.    
 
-![](https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png)
-
+<table>
+<tr>
+<td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png" width="200"></td>
+<td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png" width="200"></td>
+<td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png" width="200"></td>
+</tr>
+</table>
 
 ## Noun List
 >**Task:** From the Use Cases you should identify all the _Nouns_. These nouns are the objects and 
