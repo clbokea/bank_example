@@ -138,4 +138,4 @@ As you will have noticed a lot of code is still missing for you to have a fully 
 **Task:** Finish the program, and remember to update the affected diagram and use cases if somthing changes.    
     
         
-&copy; Kea, clbo@kea.dk 2016
+<div style="float:right">&copy; Kea, clbo@kea.dk 2016</div>
