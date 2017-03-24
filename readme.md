@@ -47,10 +47,10 @@ Customer requests to see the balance of his account.
 The account number and name of the customer together with the balance is displayed.   
 
 ## System Sequence Diagram 
-**Task:** A graphical version of a Use Case is called a System Sequence Diagram (SSD) Create one for each Use Case.
+>**Task:** A graphical version of a Use Case is called a System Sequence Diagram (SSD) Create one for each Use Case.
 
 ## Noun List
-**Task:** From the Use Cases you should identify all the _Nouns_. These nouns are the objects and 
+>**Task:** From the Use Cases you should identify all the _Nouns_. These nouns are the objects and 
 attributes of the object in a Domain Model.
 
 <pre>
@@ -63,12 +63,12 @@ Customer Name
 </pre>
    
 ## Domain Model
-**Task:** Based on the Noun List, create a  _Domain Model_ with named _Associations_ and _Multiplicity_      
+>**Task:** Based on the Noun List, create a  _Domain Model_ with named _Associations_ and _Multiplicity_      
 
 ![](https://github.com/dat16j/bank_example/blob/master/img/DomainModelBank-3.png)
 
 ## Verb List
-**Task:** Create a _Verb List_    
+>**Task:** Create a _Verb List_    
 The vers, like the nound, are found in the Use Cases. They are the methods in the Classes   
 Verbs = Actions = Methods   
 
@@ -80,7 +80,7 @@ Add to balance
 Check Balance   
 
 ## Class Methods
-**Task:** Where would you put these methods?    
+>**Task:** Where would you put these methods?    
 _(Hint: Methods should either **read** or **change** the data of the object)_     
 
 <table>
@@ -94,7 +94,7 @@ _(Hint: Methods should either **read** or **change** the data of the object)_
 </tr>
 </table>
 
-**Solution**      
+>**Solution**      
       
       
 They all goes into _Account_ Class, hence they either _read_ or _change_ the attributes of this class
@@ -112,7 +112,7 @@ They all goes into _Account_ Class, hence they either _read_ or _change_ the att
 
 
 ## Class Diagram
-**Task:** Create a _Class Diagram_ containing _Customer_ and _Account_
+>**Task:** Create a _Class Diagram_ containing _Customer_ and _Account_
       
 
 ![Class Diagram](https://github.com/dat16j/bank_example/blob/master/img/bank_class_1.png)
@@ -120,14 +120,14 @@ They all goes into _Account_ Class, hence they either _read_ or _change_ the att
 
 
 ## Class Relations
-**Task:** Add an association to the Class Diagram above.    
+>**Task:** Add an association to the Class Diagram above.    
 It should either be of the type: _Assosiation_, _Aggregation_ or _Composition_     
       
 ![Composition](https://github.com/dat16j/bank_example/blob/master/img/class_composition.png)
 
 
 ## Code
-**Task:** Based on your Class Diagram, create the Java _Classes_ with _Methods_ and _Attributes_    
+>**Task:** Based on your Class Diagram, create the Java _Classes_ with _Methods_ and _Attributes_    
     
 * [Account.java](https://github.com/dat16j/bank_example/blob/master/Account.java)
 * [Customer.java](https://github.com/dat16j/bank_example/blob/master/Customer.java)
@@ -136,7 +136,7 @@ It should either be of the type: _Assosiation_, _Aggregation_ or _Composition_
 This concludes the Object Oriented Analasys, Design and Programming circle.     
 As you will have noticed a lot of code is still missing for you to have a fully working bank example.    
 
-**Task:** Finish the program, and remember to update the affected diagram and use cases if somthing changes.    
+>**Task:** Finish the program, and remember to update the affected diagram and use cases if somthing changes.    
     
         
 &copy; Kea, clbo@kea.dk 2016
