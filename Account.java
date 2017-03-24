@@ -1,21 +1,23 @@
 public class Account {
-	
-   private int accountNumber;
+
+	private int accountNumber;
 	private double balance;
+
+	public void deposit() {
+		// TODO - implement Account.deposit	
+	}
+
+	public void withdraw(int amount) {
+		// TODO - implement Account.withdraw	
+	}
 
 	public int getAccountNumber() {
 		return this.accountNumber;
 	}
 
-	public void deposit(int amount) {
-		this.balance = balance + amount;
-	}
-
-	public void withdraw(int amount) {
-		this.balance = balance - amount;
-	}
-
-	public double checkBallance() {
+	public double checkBalance() {
+		// TODO - implement Account.checkBalance
 		return this.balance;
 	}
+
 }
