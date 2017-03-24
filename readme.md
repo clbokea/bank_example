@@ -52,7 +52,7 @@ The account number and name of the customer together with the balance is display
 <table>
 <tr>
 <td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png" width="100%"></td>
-<td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png" width="100%"></td>
+<td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDDepositMoney.png" width="100%"></td>
 <td><img src="https://github.com/dat16j/bank_example/blob/master/img/SSDWithDrawMoney.png" width="100%"></td>
 </tr>
 </table>
